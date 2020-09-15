@@ -8,6 +8,13 @@ public class User {
     private int age;
     private  String usernmae;
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "age=" + age +
+                ", usernmae='" + usernmae + '\'' +
+                '}';
+    }
 
     public int getAge() {
         return age;
